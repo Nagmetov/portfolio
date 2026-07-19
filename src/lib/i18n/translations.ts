@@ -39,6 +39,7 @@ export type Translation = {
       description: string;
       tags: string[];
       repoUrl: string;
+      image?: string;
     }[];
   };
   contact: {
@@ -111,6 +112,7 @@ export const translations: Record<Lang, Translation> = {
             "Full-stack сервис генерации студенческих документов по ГОСТ: FastAPI-бэкенд, веб-интерфейс, REST API, автоформат сырого текста.",
           tags: ["Python", "FastAPI", "REST API", "pytest"],
           repoUrl: "https://github.com/Nagmetov/gost-doc-generator",
+          image: "/projects/gost-doc-generator.png",
         },
         {
           title: "ML Breast Ultrasound",
@@ -118,6 +120,7 @@ export const translations: Record<Lang, Translation> = {
             "U-Net модель для сегментации опухолей на УЗИ молочной железы: обучение, инференс на одном изображении, визуализация результатов.",
           tags: ["TensorFlow", "Keras", "OpenCV", "Jupyter"],
           repoUrl: "https://github.com/Nagmetov/ML_Breast_Ultrasound",
+          image: "/projects/ml-breast-ultrasound.png",
         },
         {
           title: "Dobot Tic-Tac-Toe",
@@ -125,6 +128,7 @@ export const translations: Record<Lang, Translation> = {
             "Компьютерное зрение (YOLO) + роборука Dobot: распознавание игрового поля и физическая игра в крестики-нолики в реальном мире.",
           tags: ["Python", "YOLO", "OpenCV", "Robotics"],
           repoUrl: "https://github.com/Nagmetov/Dobot_tik_tak_toe",
+          image: "/projects/dobot-tik-tak-toe.png",
         },
         {
           title: "Cute Room — OpenGL 3D Renderer",
@@ -232,6 +236,7 @@ export const translations: Record<Lang, Translation> = {
             "Full-stack service for generating student documents formatted to the Russian GOST standard: FastAPI backend, web UI, REST API, raw-text autoformatting.",
           tags: ["Python", "FastAPI", "REST API", "pytest"],
           repoUrl: "https://github.com/Nagmetov/gost-doc-generator",
+          image: "/projects/gost-doc-generator.png",
         },
         {
           title: "ML Breast Ultrasound",
@@ -239,6 +244,7 @@ export const translations: Record<Lang, Translation> = {
             "U-Net model for tumor segmentation in breast ultrasound images: training, single-image inference, and result visualization.",
           tags: ["TensorFlow", "Keras", "OpenCV", "Jupyter"],
           repoUrl: "https://github.com/Nagmetov/ML_Breast_Ultrasound",
+          image: "/projects/ml-breast-ultrasound.png",
         },
         {
           title: "Dobot Tic-Tac-Toe",
@@ -246,6 +252,7 @@ export const translations: Record<Lang, Translation> = {
             "Computer vision (YOLO) + a Dobot robotic arm: detects the game board and physically plays tic-tac-toe in the real world.",
           tags: ["Python", "YOLO", "OpenCV", "Robotics"],
           repoUrl: "https://github.com/Nagmetov/Dobot_tik_tak_toe",
+          image: "/projects/dobot-tik-tak-toe.png",
         },
         {
           title: "Cute Room — OpenGL 3D Renderer",
