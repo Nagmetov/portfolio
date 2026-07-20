@@ -1,5 +1,7 @@
 # Шукур Нагметов — Portfolio
 
+[![CI](https://github.com/Nagmetov/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Nagmetov/portfolio/actions/workflows/ci.yml)
+
 Личный сайт-портфолио full-stack разработчика. Next.js (App Router) + TypeScript + Tailwind CSS v4, тёмная тема, переключение RU/EN на клиенте.
 
 ## Стек
@@ -26,6 +28,10 @@ npm run test:ui # интерактивный режим
 ```
 
 Тесты покрывают: загрузку без ошибок консоли, наличие секций, якорную навигацию, переключение языка и его сохранение, доступность `robots.txt`/`sitemap.xml`/иконки.
+
+## CI
+
+`.github/workflows/ci.yml` при каждом пуше и pull request в `main` прогоняет линтер, проверку типов и Playwright-тесты.
 
 ## Структура
 
